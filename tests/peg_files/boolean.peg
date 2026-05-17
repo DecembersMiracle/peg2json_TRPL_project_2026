@@ -1,0 +1,5 @@
+Expr = Or
+Or = And ("or" And)*
+And = Not ("and" Not)*
+Not = "not" Primary / Primary
+Primary = "true" / "false" / "(" Expr ")"

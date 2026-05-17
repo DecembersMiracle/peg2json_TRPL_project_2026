@@ -1,0 +1,5 @@
+Document = Element*
+Element = "<" Tag ">" Content "</" Tag ">"
+Tag = [a-z]+
+Content = Text / Element*
+Text = [^<]+

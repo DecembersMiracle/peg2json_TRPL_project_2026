@@ -1,0 +1,5 @@
+List = "[" Elements? "]"
+Elements = Value ("," Value)*
+Value = String / Number / List
+String = "\"" [^\"]* "\""
+Number = [0-9]+

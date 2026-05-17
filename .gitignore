@@ -1,0 +1,7 @@
+*.hi
+*.o
+.DS_Store
+tests_unit
+peg-parser
+/tmp/
+

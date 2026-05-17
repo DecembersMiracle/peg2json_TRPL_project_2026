@@ -1,0 +1,4 @@
+Ident = Letter (Letter / Digit / "_")*
+Keyword = "if" / "else" / "while" / "return"
+Letter = [a-zA-Z]
+Digit = [0-9]
